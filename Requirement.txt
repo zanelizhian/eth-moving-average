@@ -1,0 +1,10 @@
+https://wizardforcel.gitbooks.io/python-quant-uqer/content/70.html
+用一分钟K线回测一下这个策略：
+双均线策略
+不要用简单移动平均，用指数移动平均（pandas里面的ewm函数）和卡尔曼滤波（kalman filter）
+来建造均线
+ewm的半衰期试一试短2长5这个组合
+https://wizardforcel.gitbooks.io/python-quant-uqer/content/70.html
+你就先试一下上面的，用ewm
+估计简单的回测几个小时就可以弄好，你抓紧
+你先把指数平均移动双均线策略做一下吧
